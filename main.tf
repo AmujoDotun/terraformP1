@@ -4,14 +4,14 @@ provider "aws" {
   secret_key = "diRs44gxTa4wVosjUD1phTd+FLnFVF"
 }
 
-# resource "aws_instance" "my-first-server" {
-#   ami = "ami-0dd9f0e7df0f0a138"
-#   instance_type = "t2.micro"
+resource "aws_instance" "my-first-server" {
+  ami = "ami-0dd9f0e7df0f0a138"
+  instance_type = "t2.micro"
 
-#   tags = {
-#     "Name" = "Ubuntu"
-#   }
-# }
+  tags = {
+    "Name" = "Ubuntu"
+  }
+}
 
 # resource "aws_vpc" "first-vpc" {
 #   cidr_block = "10.0.0.0/16"
