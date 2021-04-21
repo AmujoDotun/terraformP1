@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-2"
-  access_key = "AKIAINBIW4LHGDVK"
-  secret_key = "diRs44gxTa4wVosjUD1phTd+FLnFVF"
+  access_key = "level my key alone and use yours"
+  secret_key = "mykeys"
 }
 
 # resource "aws_instance" "my-first-server" {
